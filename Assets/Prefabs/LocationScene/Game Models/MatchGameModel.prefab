@@ -117,8 +117,9 @@ GameObject:
   - component: {fileID: 5777168012237853380}
   - component: {fileID: -5584111377598211115}
   - component: {fileID: -1046961925026037979}
+  - component: {fileID: -315758339922885053}
   m_Layer: 0
-  m_Name: Flowers_01
+  m_Name: MatchGameModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -208,6 +209,22 @@ MonoBehaviour:
     y: 0
   eventID: 0
   gameIdentifier: Match
+--- !u!114 &-315758339922885053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186735023776687486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b348a34548c5b49826e6bc0f6d04ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  baseZoom: 17
+  baseScale: 1
+  scaleMultiplier: 0.5
 --- !u!1 &5440194995934546347
 GameObject:
   m_ObjectHideFlags: 0

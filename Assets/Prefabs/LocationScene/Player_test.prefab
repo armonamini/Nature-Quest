@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4895895357916372}
   - component: {fileID: 114150699017918456}
   - component: {fileID: 114909627013365610}
+  - component: {fileID: -4730165263637499172}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player_test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,6 +66,22 @@ MonoBehaviour:
   _rotateZ: 0
   _useNegativeAngle: 0
   _useTransformLocationProvider: 0
+--- !u!114 &-4730165263637499172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111785780636424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b348a34548c5b49826e6bc0f6d04ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  baseZoom: 14
+  baseScale: 1
+  scaleMultiplier: 0.5
 --- !u!1 &1138502710912304
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,13 +1,16 @@
 # Overview
 Nature Quest is an educational mobile game that aims to encourage children (k-8) to explore the UCI Ecological Preserve interactively. It introduces engaging minigames, cute “Sprout” characters and fun rewards to make learning about nature interesting and accessible for younger users. The project was built using Unity game engine and developed for Android devices. 
 
+## Purpose
+Nature Quest was created to make outdoor education engaging for young visitors. By combining real world exploration with short mobile mini-games, the project helps children learn about local plants and animals while visiting the UCI Ecological Preserve.
+
 ## Features
 - Geolocation-based exploration tied to the UCI Ecological Preserve
 - Educational mini-games designed to teach ecological concepts
 - Interactive UI with AR-style map navigation (via Mapbox)
 - Progress tracking for completed activities and learning modules
 
-## Target Plateforms 
+## Target Platforms 
 - Android mobile
   - Minimum API Level: Android 7.0 'Nougat' (API level 24)
   - Target API Level: Android 14.0 (API level 34)   
@@ -38,20 +41,29 @@ Nature-Quest/
 - Mapbox Unity SDK (v2.1.1 or newer)
 - Android Build Support (via Unity Hub)
   
-## Installing Software Dependencies 
-### Cloning Project
-To clone the project simply select "Code" drop down on the github repository page and then clone the project using HTTPS, SSH, or GitHub CLI.
-### Downloading Unity
-Use the following [download Link](https://unity.com/download). Select your operating system. 
-Once UnityHubSetup executable is downloaded, double click to open and follow installation instructions. 
-Unity Hub is a manager application that organizes multiple Unity installations and keeps packages a project associated with the proper Unity version. 
-In Unity Hub browse to "Installs" tab, locate and click the "Install Editor" button, and select "install on Unity(2022.2.55). Installing the editor can take several minutes to an hour. 
-Once the Unity editor is installed select "Add" and browse to project root directory include the project on Unity Hub's "Projects" page. 
-### Mapbox Account Set up
-A Mapbox API key is required to work with this project. To generate a key an Mapbox user acount is required. Go to the [Mapbox homepage](https://www.mapbox.com/) and select "Sign Up" and complete the sign up process. 
-Once complete go the account console, find the "Tokens" tab under "Admin". On the page select "Create a token", add a name, and leave all the settings to default. Select "Create token". Finally, copy the created token
-### Adding Mapbox API key to Unity Project
-Launch the project in the Unity Editor. In the top option bar select "Mabox" -> "Setup". In the "Mapbox Setup" window paste your token in "Access Token" field and select "Submit". If all works correctly a "valid" message will appear next to your token.
+## Installation
+Follow these steps to set up the project in the Unity editor.
+
+### 1. Cloning this repository
+```
+bash
+git clone https://github.com/YOUR_ORG/Nature-Quest.git
+```
+To clone the project simply select "Code" drop down on the github repository page and then clone the project using HTTPS, SSH, or GitHub CLI. 
+You can also clone via SSH if preferred.
+
+### 2. Install Unity 2022.2.55f1
+1. Download and install **Unity Hub** from [unity.com/download](https://unity.com/download).
+2. In **Unity Hub**, open the **Installs** tab and choose **Install Editor**.
+3. Select version **2022.2.55f1** and make sure **Android Build Support** is checked.
+
+### 3. Add the project to Unity Hub
+In the **Projects** tab click **Add** and browse to the folder where the repository was cloned.
+
+### 4. Configure Mapbox
+1. Sign up for a free Mapbox account and create an access token in the Mapbox console.
+2. Open the project in Unity and choose **Mapbox > Setup** from the menu.
+3. Paste your token into the **Access Token** field and click **Submit**.
 
 ## Building and Running
 1. Connect an Android device with Developer Mode enabled.
@@ -101,7 +113,7 @@ Use environment variables or Unity's `Resources` folder with `.gitignore` in pla
 ## Project Sponsors
 - UCI Nature
   - Megan Lulow, Ph.D
-  - Julie Cofffey, M.sc
+  - Julie Coffey, M.sc
   - Thanh Le
   - Moises Perea-Vega
 - Matthew Bietz Ph.D     
